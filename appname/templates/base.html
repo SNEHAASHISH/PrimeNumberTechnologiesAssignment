@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Assignment{% endblock %}</title>
+    <!-- Include any additional CSS or JS files -->
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <header>
+        <!-- Add your site's header content here -->
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Default content goes here -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <!-- Add your site's footer content here -->
+    </footer>
+
+    <!-- Include any additional JS files -->
+    {% block scripts %}{% endblock %}
+</body>
+</html>
